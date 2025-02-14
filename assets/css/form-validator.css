@@ -1,0 +1,33 @@
+/* Estilos para los íconos de validación */
+.input-container {
+    position:      relative;
+    margin-bottom: 15px;
+}
+
+.input-container input,
+.input-container textarea {
+    width:         100%;
+    padding:       12px;
+    border:        1px solid #ddd;
+    border-radius: 6px;
+    font-size:     16px;
+    transition:    border-color 0.3s ease;
+}
+
+.input-container .validation-icon {
+    position: absolute;
+    
+    right: 10px;
+    top:   50%;
+
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+    text-align: center;
+    margin-top: 10px;
+    font-size:  15px;
+    color:      #ff0000;
+}
